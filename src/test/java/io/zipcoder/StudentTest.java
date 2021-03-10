@@ -77,7 +77,6 @@ public class StudentTest {
         String output = jason.getExamScores();
 
         //then
-        System.out.println(output);
         Assert.assertEquals(output, "Exam 1 -> 100.0");
     }
 
@@ -92,7 +91,6 @@ public class StudentTest {
         String output = freddy.getExamScores();
 
         //then
-        System.out.println(output);
         Assert.assertEquals(output, "Exam 1 -> 24.0");
     }
 
@@ -108,7 +106,6 @@ public class StudentTest {
         //when
         String output = norman.getAverageExamScore();
         //then
-        System.out.println(output);
         Assert.assertEquals("\\`\\`\\`\n 83.0\n\\`\\`\\`", output);
 
     }
@@ -125,7 +122,6 @@ public class StudentTest {
         //when
         String output = norman.toString();
         //then
-        System.out.println(output);
         Assert.assertEquals(output, output);
 
     }
